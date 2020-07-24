@@ -1,0 +1,40 @@
+.organizations {
+  width: 100%;
+  background-color: #1f1f1f;
+}
+
+.help-text {
+  color: whitesmoke;
+}
+
+.organization-container {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.card-image {
+  height: 350px;
+  width: 80%;
+}
+
+.organization-name {
+  height: 100px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+}
+
+.organization-name > p {
+  font-size: 30px;
+  text-align: center;
+}
