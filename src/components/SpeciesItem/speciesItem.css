@@ -20,6 +20,16 @@
   transform: translateY(-50%);
   height: 250px;
   width: 80%;
+  -webkit-box-shadow: 10px 14px 19px -15px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 14px 19px -15px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 14px 19px -15px rgba(0, 0, 0, 0.75);
+}
+
+.image-2 {
+  display: none;
+  -webkit-box-shadow: 10px 14px 19px -15px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 14px 19px -15px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 14px 19px -15px rgba(0, 0, 0, 0.75);
 }
 
 .species-info-container {
@@ -37,4 +47,32 @@
 
 .species-info-container > p {
   text-align: justify;
+  font-size: 18px;
+}
+
+@media only screen and (min-width: 500px) {
+  .species-info-container > p {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .species-info-container > p {
+    font-size: 23px;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .image-1 {
+    transform: translate(10%, -50%);
+    height: 250px;
+    width: 60%;
+  }
+
+  .image-2 {
+    display: inline;
+    transform: translate(-20%, -30%);
+    height: 250px;
+    width: 30%;
+  }
 }

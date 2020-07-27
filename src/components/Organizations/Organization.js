@@ -9,8 +9,8 @@ export default function Organization() {
         <h1>Organizations Helping Them</h1>
       </div>
       <div className="organization-container">
-        {organizationData.map((org) => (
-          <CardContainer org={org} />
+        {organizationData.map((org, index) => (
+          <CardContainer org={org} key={index} />
         ))}
       </div>
     </div>

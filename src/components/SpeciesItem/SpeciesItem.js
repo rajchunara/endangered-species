@@ -2,8 +2,7 @@ import React from 'react';
 import './speciesItem.css';
 
 export default function SpeciesItem({ species, number }) {
-  const { name, url, info } = species;
-  console.log(number);
+  const { name, url, secUrl, info } = species;
   return (
     <div className="species-item">
       <div className="item-container">
@@ -11,6 +10,11 @@ export default function SpeciesItem({ species, number }) {
           <img
             className="image-1"
             src={`${process.env.PUBLIC_URL + url}`}
+            alt=""
+          />
+          <img
+            className="image-2"
+            src={`${process.env.PUBLIC_URL + secUrl}`}
             alt=""
           />
         </div>
