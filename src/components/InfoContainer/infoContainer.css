@@ -6,3 +6,10 @@
   padding: 50px 0px;
   background-color: #1f1f1f;
 }
+
+/* for desktops */
+/* @media only screen and (min-width: 1200px) {
+  .info-container:nth-child(1) {
+    justify-self: flex-start;
+  }
+} */

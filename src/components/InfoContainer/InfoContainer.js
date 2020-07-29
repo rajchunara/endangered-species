@@ -8,7 +8,7 @@ export default function InfoContainer() {
   return (
     <div id="info" className="info-container">
       {data.map((item, index) => (
-        <SpeciesItem key={index} species={item} number={index} />
+        <SpeciesItem key={index} species={item} number={index + 1} />
       ))}
     </div>
   );
