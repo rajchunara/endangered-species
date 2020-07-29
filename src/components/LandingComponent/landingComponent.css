@@ -64,7 +64,7 @@ p {
 .read-more-btn {
   margin-top: 20px;
   width: 150px;
-  height: 50px;
+  height: 40px;
   background-color: whitesmoke;
   display: flex;
   justify-content: center;
@@ -80,4 +80,42 @@ p {
 .read-more-btn > a {
   text-decoration: none;
   color: #000;
+}
+
+@media only screen and (min-width: 800px) {
+  .title-wrapper > h1 {
+    font-size: 90px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .title-wrapper > h1 {
+    font-size: 100px;
+  }
+}
+
+/* for Laptops */
+@media only screen and (min-width: 1200px) {
+  .title-wrapper {
+    height: 60%;
+  }
+  .title-wrapper > h1 {
+    font-size: 110px;
+  }
+
+  .read-more-btn {
+    width: 150px;
+    height: 40px;
+  }
+}
+
+/* high resolution laptops */
+@media only screen and (min-width: 1400px) {
+  .background-image {
+    position: absolute;
+    left: 200px;
+    top: 100px;
+    width: 90%;
+    height: 70%;
+  }
 }

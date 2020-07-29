@@ -6,7 +6,10 @@ export default function Organization() {
   return (
     <div className="organizations">
       <div className="help-text">
-        <h1>Organizations Helping Them</h1>
+        <h1>
+          <span className="line"></span>
+          <span>Organizations Helping Them</span>
+        </h1>
       </div>
       <div className="organization-container">
         {organizationData.map((org, index) => (
