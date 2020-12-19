@@ -49,6 +49,7 @@
 }
 
 .organization-name > p {
+  padding: 0px 20px;
   font-size: 30px;
   text-align: center;
 }
@@ -62,7 +63,7 @@
   }
 
   .card-container {
-    width: 390px;
+    width: 450px;
   }
   .help-text {
     padding-top: 100px;

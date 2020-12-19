@@ -7,6 +7,9 @@ export default function InfoContainer() {
   const data = species;
   return (
     <div id="info" className="info-container">
+      <div className="info-title">
+        <h1 className="info-header">Top Five Endangered Species</h1>
+      </div>
       {data.map((item, index) => (
         <SpeciesItem key={index} species={item} number={index + 1} />
       ))}
